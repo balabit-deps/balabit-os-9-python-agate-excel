@@ -1,0 +1,82 @@
+python-agate-excel (0.2.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add version constraint on python3-openpyxl.
+
+ -- Håvard Flaget Aasen <haavard_aasen@yahoo.no>  Wed, 01 Dec 2021 08:49:13 +0000
+
+python-agate-excel (0.2.5-1) unstable; urgency=medium
+
+  * Team upload.
+  [ Debian Janitor ]
+  * Use secure URI in Homepage field.
+  * Bump debhelper from old 12 to 13.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Håvard Flaget Aasen ]
+  * New upstream version 0.2.5
+    New version is compatible with openpyxl version 3.0.9 Closes: #1000552
+  * Rebase patches, mark patches forwarded: not-needed.
+  * Update Standards-Version to 4.6.0.
+  * Update homepage.
+  * Add python3-olefile, drop sphinx-common and dpkg-dev as
+    build dependencies.
+  * Add rules-requires-root.
+  * Drop 'built-using' field.
+  * d/watch: Bump version to 4.
+  * d/source/local-options -> options. To build twice in a row.
+  * autopkgtest: Get Python version with 's' flag.
+
+  [ Jeroen Ploemen ]
+  * Control: remove the build profile restriction from the suggested
+    dependency of the binary pkg on the -doc pkg.
+  * Control: add missing spaces in description.
+  * Rules: merge dh_auto_build overrides.
+
+ -- Håvard Flaget Aasen <haavard_aasen@yahoo.no>  Tue, 30 Nov 2021 15:08:09 +0000
+
+python-agate-excel (0.2.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/control: Remove ancient X-Python3-Version field
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Andrius Merkys ]
+  * New upstream version 0.2.3
+  * Refreshing patches.
+  * Bumping debhelper compat level (no changes).
+  * Bumping Standards-Version to 4.4.1 (no changes).
+  * Removing 'sign-tags' directive from debian/gbp.conf.
+
+ -- Andrius Merkys <merkys@debian.org>  Wed, 27 Nov 2019 04:47:26 -0500
+
+python-agate-excel (0.2.1-3) unstable; urgency=medium
+
+  * Bump standards version to 4.0.0, no changes required
+  * Build the docs using the upstream Makefile
+  * Mark doc package multiarch foreign
+  * Release to unstable
+
+ -- Ghislain Antony Vaillant <ghisvail@gmail.com>  Tue, 25 Jul 2017 20:36:08 +0100
+
+python-agate-excel (0.2.1-2) experimental; urgency=medium
+
+  * Fixup Maintainers, Vcs-Browser and Vcs-Git fields
+
+ -- Ghislain Antony Vaillant <ghisvail@gmail.com>  Thu, 23 Mar 2017 10:30:34 +0000
+
+python-agate-excel (0.2.1-1) experimental; urgency=low
+
+  * Initial release. (Closes: #850449)
+
+ -- Ghislain Antony Vaillant <ghisvail@gmail.com>  Wed, 22 Mar 2017 11:05:20 +0000

@@ -1,0 +1,37 @@
+From: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Date: Wed, 15 Mar 2017 07:39:33 +0000
+Subject: No privacy breach
+
+Forwarded: not-needed
+---
+ README.rst | 20 --------------------
+ 1 file changed, 20 deletions(-)
+
+diff --git a/README.rst b/README.rst
+index bc0544d..dbd3f10 100644
+--- a/README.rst
++++ b/README.rst
+@@ -1,23 +1,3 @@
+-.. image:: https://github.com/wireservice/agate-excel/workflows/CI/badge.svg
+-    :target: https://github.com/wireservice/agate-excel/actions
+-    :alt: Build status
+-
+-.. image:: https://img.shields.io/pypi/dm/agate-excel.svg
+-    :target: https://pypi.python.org/pypi/agate-excel
+-    :alt: PyPI downloads
+-
+-.. image:: https://img.shields.io/pypi/v/agate-excel.svg
+-    :target: https://pypi.python.org/pypi/agate-excel
+-    :alt: Version
+-
+-.. image:: https://img.shields.io/pypi/l/agate-excel.svg
+-    :target: https://pypi.python.org/pypi/agate-excel
+-    :alt: License
+-
+-.. image:: https://img.shields.io/pypi/pyversions/agate-excel.svg
+-    :target: https://pypi.python.org/pypi/agate-excel
+-    :alt: Support Python versions
+-
+ agate-excel adds read support for Excel files (xls and xlsx) to `agate <https://github.com/wireservice/agate>`_.
+ 
+ Important links:
